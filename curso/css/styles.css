@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #504c4c80;
+}
+/* HEADER */
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: #000000dc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+    
+}
+
+.header .logo img {
+    height: 80px;
+    width: auto;
+    padding: 0 250%;
+}
+
+/* NAV BAR */
+.navegador {
+    padding: 0px 30%;
+    
+    
+}
+.header .navegador ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+    
+}
+
+.navegador .nav-links a {
+    color: #fffafae1;
+    text-decoration: none;
+    padding: 0 20px;
+    
+    
+}
+/* PRODUCT CARDS */
+
+main {
+    margin: 4%;
+    
+}
+
+main h2 {
+    font-size: 35px;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(10, 10, 10);
+}
+
+main .mih2 {
+    
+    height: 100px;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.product-card {
+    display: flex;
+    width: 300px;
+    margin: 1%;
+    
+    
+}
+.product-card .content  {
+    border: 5px solid black;
+    margin: 30%; 
+    padding: 0 30%;
+    height: 230px;
+    
+    
+}
+
+
+
+
+
+.product-card .content img {
+    height: 100px;
+    width: auto;
+}
+
+
+.product-card .content  p {
+    padding: 0 20%;
+}
+/* FOOTER */
+.elfooter {
+    height: 80px;
+    width: 100%;
+    background-color: #000000dc;
+    
+
+}
+
+.elfooter h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: azure;
+}
+
+.elfooter ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 20px;
+    }
+
+.elfooter .footer-links a {
+    font-size: 300;
+    color: azure;
+    text-decoration: none;
+    padding: 0 360px;
+    
+}
+
+.formulario .consulta {
+    padding: 0 400;
+    height: 150px;
+    width: 1000px;
+}
+
+
+
