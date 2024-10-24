@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+body {
+    background-color: #504c4c80;
+    margin: 0px;
+}
+/* HEADER */
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: #000000dc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+    margin: auto;
+    
+}
+
+.header .logo img {
+    height: 80px;
+    width: auto;
+    padding: 0 250%;
+}
+
+/* NAV BAR */
+.navegador {
+    padding: 0px 30%;
+    margin: auto;
+    
+    
+}
+.header .navegador ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+    
+}
+
+.navegador .nav-links a {
+    color: #fffafae1;
+    text-decoration: none;
+    padding: 0 20px;
+    
+    
+}
+/* MAIN */
+
+/* SECTION MAPS */
+
+.ubicacion {
+    padding: 10 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ubicacion a {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+    text-decoration: none;
+    color: rgba(10, 10, 10, 0.808);
+}
+
+.ubicacion h2 {
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 120px;
+    font-weight: bolder;
+}
+
+/* PRODUCT CARDS */
+
+
+main h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(10, 10, 10);
+}
+
+main .mih2 {
+    
+    height: 100%;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.imgmenu {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #930;
+    border-radius: 5px;
+    padding: 0;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+
+    
+}
+
+
+.imgmenu img {
+    height: 410px;
+    width: 800px;
+    padding: 0;
+    margin: 0;
+}
+.product-card {
+    /* APLICO FLEXBOX */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    /* GAP SIRVE PARA SEPARAR CONTENEDORES ENTRE SI */
+    gap: 20px;
+    
+    
+    
+    
+}
+
+
+.box1 {
+    background-color: whitesmoke;
+    width: 300px;
+    height: 250px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid black; 
+    border-radius: 8px;
+    padding: 5px;
+}
+
+
+
+.box1 img {
+    width: 200px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    
+}
+
+.box1 p {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.box1 button {
+    font-weight: 400;
+    width: 250px;
+    color: white;
+    background-color: rgba(2, 2, 2, 0.842);
+    margin-top: 3px;
+}
+
+.box2  {
+    background-color: whitesmoke;
+    width: 300px;
+    height: 250px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid black; 
+    border-radius: 8px;
+    padding: 5px;
+
+}
+
+
+
+.box2 img {
+    width: 200px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+.box2 p {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.box2 button {
+    font-weight: 400;
+    width: 250px;
+    color: white;
+    background-color: rgba(2, 2, 2, 0.842);
+    margin-top: 3px;
+}
+
+.box3  {
+    background-color: whitesmoke;
+    width: 300px;
+    height: 250px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid black; 
+    border-radius: 8px;
+    padding: 5px;
+
+}
+.box3 img {
+    width: 200px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+.box3 p {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.box3 button {
+    font-weight: 400;
+    width: 250px;
+    color: white;
+    background-color: rgba(2, 2, 2, 0.842);
+    margin-top: 3px;
+}
+
+.descuentos {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+
+/* FOOTER */
+.elfooter {
+    height: 80px;
+    width: 100%;
+    background-color: #000000dc;
+    margin: 0;
+    margin-top: 100px;
+
+    
+
+}
+
+.elfooter p { 
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+}
+
+.elfooter h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: azure;
+}
+
+.elfooter ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+    
+    }
+
+.elfooter .footer-links a {
+    font-size: 300;
+    color: azure;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+
+
+
+.formulario {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #000;
+    border-radius: 5px;
+    
+    background-color: gray
+    
+
+}
+
+
+
+.formulario .consulta {
+    height: 120px;
+    width: 90%;
+    margin: 10px;}
+    
+
+.formulario input {
+        margin: 10px;
+        width: 30%;
+        padding: 0 0;
+        color: black;
+        background-color: white;
+    }
+
+.formpart {
+    width: 1800px;
+    display: flexbox;
+    justify-content: start;
+    flex-direction: column;
+}
+/* product box seccion productos */
+.product-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+.product-box {
+    height: 200px;
+    width: 250px;
+    border: 5px solid black;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: whitesmoke;
+}
+
+.product-box img {
+    height: 100px;
+    width: 150px;
+    margin: 5px;
+}
+
+.product-box h2 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.product-box button {
+    font-weight: 400;
+    width: 236px;
+    color: white;
+    background-color: rgba(2, 2, 2, 0.842);
+    margin-top: 3px;
+    
+}
+
